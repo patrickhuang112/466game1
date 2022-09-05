@@ -1,5 +1,7 @@
 #include "PPU466.hpp"
 #include "Mode.hpp"
+#include "Game.hpp"
+#include "GameView.hpp"
 
 #include <glm/glm.hpp>
 
@@ -29,7 +31,20 @@ struct PlayMode : Mode {
 	//player position:
 	glm::vec2 player_at = glm::vec2(0.0f);
 
+	bool src_set;
+	int src_row;
+	int src_col;
+
+	Game::Game game;
+	GameView::GameView game_view;
+	bool game_over;	
+
 	//----- drawing handled by PPU466 -----
 
 	PPU466 ppu;
+
+	private:
+		bool handling_event;
+		void draw_pieces(void);
+
 };
