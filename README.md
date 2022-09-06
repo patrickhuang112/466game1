@@ -10,7 +10,7 @@ However with 8x8 textures, I soon found that the textures I had for depiciting n
 
 ## Screen Shot:
 
-![Screen Shot](tilewars_screenshot.png)
+![Screen Shot](screenshot.png)
 
 ## How Your Asset Pipeline Works:
 
