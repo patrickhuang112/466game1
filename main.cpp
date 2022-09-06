@@ -63,9 +63,9 @@ int main(int argc, char **argv) {
 
 	//create window:
 	SDL_Window *window = SDL_CreateWindow(
-		"Tile wars", //TODO: remember to set a title for your game!
+		"Tile Wars", 
 		SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-		3*PPU466::ScreenWidth, 3*PPU466::ScreenHeight, //TODO: modify window size if you'd like
+		3*PPU466::ScreenWidth, 3*PPU466::ScreenHeight, 
 		SDL_WINDOW_OPENGL
 		// | SDL_WINDOW_RESIZABLE //uncomment to allow resizing
 		| SDL_WINDOW_ALLOW_HIGHDPI //uncomment for full resolution on high-DPI screens
