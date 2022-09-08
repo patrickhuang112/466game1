@@ -33,7 +33,7 @@ When loading the pngs, I created a palette that had the main colors I would use 
 
 ### Assets I made but unused:
 
-#### 8x8 Colored versions:
+#### 8x8 numbers colored versions:
 [Blue Outline 1](assets/1blu.png)
 [Blue Outline 2](assets/2blu.png)
 [Blue Outline 3](assets/3blu.png)
@@ -49,7 +49,7 @@ When loading the pngs, I created a palette that had the main colors I would use 
 [Red Outline 5](assets/5red.png)
 [Red Outline 6](assets/6red.png)
 
-#### 16x16 Colored versions:
+#### 16x16 numbers colored versions:
 [Blue Outline 1](assets/16x16/1blu.png)
 [Blue Outline 2](assets/16x16/2blu.png)
 [Blue Outline 3](assets/16x16/3blu.png)
