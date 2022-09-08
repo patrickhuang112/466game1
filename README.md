@@ -2,7 +2,7 @@
 
 Author: pbhuang
 
-Design: Game is based on Dice Wars / Go. Related with Go where you need to capture tiles. Dice wars in that you get dice and you use the number of dice you have on a space to attack other spaces your opponents control (kind of like Risk too).
+Design: Game is based on Dice Wars / Go. Related with Go where you need to capture tiles. Dice wars in that you get dice and you use the number of dice you have on a space to attack other spaces your opponents control (kind of like Risk too). Game is a TWO PLAYER GAME, where turns alternate.
 
 One design compromise that I had to do was my tiles use patterns to indicate strength instead of direct numbers. I had wanted to directly display numbers when my textures were 32x32 and then later 16x16. However for both, I was running into a lot of problems first creating "SuperSprites" consisting of multiple 8x8 sprites to make one of these textures. But also, considering there were only 64 available sprites to be used, if I used 4 for each item, that mean I could only have 64 / 4 = 16 unique pieces drawn at a time, which would make for a very limited gameplay experience. Thus, I decided to put gameplay over graphics so all textures were made to be 8x8.
 
@@ -66,6 +66,8 @@ When loading the pngs, I created a palette that had the main colors I would use 
 [Red Outline 6](assets/16x16/6red.png)
 
 ## How To Play:
+
+Tile War is a TWO PLAYER game. Player 1 starts on the bottom left, Player 2 starts on the bottom right
 
 Player 1 is colored light blue<br>
 Player 2 is colored light red<br>
